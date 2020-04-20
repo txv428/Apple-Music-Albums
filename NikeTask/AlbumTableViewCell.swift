@@ -11,7 +11,7 @@ import UIKit
 
 class AlbumTableViewCell: UITableViewCell {
     
-    // MARK: - Properties
+    // MARK: - Props
     var album: AlbumModel? {
         didSet {
             nameLabel.text = album?.name
@@ -25,7 +25,7 @@ class AlbumTableViewCell: UITableViewCell {
         }
     }
     
-    // MARK: - Private
+    // MARK: - Auto Layout UI's
     
     let artworkImageView: UIImageView = {
         let imageView = UIImageView()

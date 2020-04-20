@@ -71,7 +71,6 @@ class AlbumDetailViewController: UIViewController {
     // MARK: - Actions
     
     @objc func iTunesButtonPressed() {
-        
         #if targetEnvironment(simulator)
         ErrorMessage(titleStr: "Oops, It's Simulator", messageStr: "Can't open iTunes in Simulator. Try in iPhone")
         #else
@@ -80,7 +79,7 @@ class AlbumDetailViewController: UIViewController {
         #endif
     }
     
-    // MARK: - Properties
+    // MARK: - Auto Layout UI's
     
     var album: AlbumModel?
     var artworkImage: UIImage? {
@@ -145,7 +144,7 @@ class AlbumDetailViewController: UIViewController {
 }
 
 extension AlbumDetailViewController: SKStoreProductViewControllerDelegate {
-    
+    // itunes protocol
     func openItunesWith(identifier: String) {
         let storeViewController = SKStoreProductViewController()
         storeViewController.delegate = self
