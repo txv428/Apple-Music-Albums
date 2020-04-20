@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				186DE85A244AB99F00D8EFAA /* Helpers */,
-				186DE858244AB95500D8EFAA /* Controller */,
+				186DE858244AB95500D8EFAA /* Controllers */,
 				186DE857244AB91E00D8EFAA /* Extensions */,
 				186DE854244AB8CA00D8EFAA /* Model */,
 				186DE814244AAFAD00D8EFAA /* AppDelegate.swift */,
@@ -136,14 +136,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		186DE858244AB95500D8EFAA /* Controller */ = {
+		186DE858244AB95500D8EFAA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				186DE842244AB20D00D8EFAA /* AlbumDetailViewController.swift */,
 				186DE838244AB0E700D8EFAA /* AlbumTableViewController.swift */,
 				186DE844244AB24C00D8EFAA /* AlbumTableViewCell.swift */,
 			);
-			name = Controller;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		186DE85A244AB99F00D8EFAA /* Helpers */ = {
