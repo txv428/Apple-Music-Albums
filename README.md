@@ -9,13 +9,6 @@
   * Auto Layout done programmatically with out storyboards.
   * Clone with the URL in Xcode or click on NikeTask.xcodeproj to see the app or else download all the files and run in the xcode.
   
-    Markup :  - - - -
-
-_Image with alt :_
-
-![picture alt](https://drive.google.com/file/d/12jd8iuKkLTeLh0nluQxKWfPA65rr4_6x/view?usp=sharing "Optional Title")
-
-
 
 
 
