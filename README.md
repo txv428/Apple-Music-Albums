@@ -7,7 +7,18 @@
   * Simple iOS App which displays list of top albums, in json format with a detail view for every album. 
   * Data is retrieved from a given json url.
   * Auto Layout done programmatically with out storyboards.
-  * Clone with the URL in Xcode or click on NikeTask.xcodeproj to see the app or else download all the files and run in the xcode.
+  
+## Steps to run the App ##
+  * Download the project via git / or zip
+  * Open folder
+  * Double click on .xcodeproj file
+  * if on the top left, you see a something like "Base sdk missing"
+    * Double click on the first item in the three
+       * Go to tag build
+    * Select a sdk for the Base SDK
+    * Close the opened popup
+    * Click on build an run
+    * If you have error, you should see a red icon on the right bottom
 
 
 Dark Mode :
