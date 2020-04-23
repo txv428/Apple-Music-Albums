@@ -61,6 +61,8 @@ class AlbumTableViewCell: UITableViewCell {
         addSubview(nameLabel)
         addSubview(artistLabel)
         
+        self.accessibilityElementsHidden = true
+        
         artworkImageView.anchor(top: topAnchor, topVal: 20, bottom: nil, bottomVal: 0, left: leftAnchor, leftVal: 12, right: nil, rightVal: 0, width: 150, height: 150, centerXVal: leftAnchor, centerX: false)
         
         let stackView = UIStackView(arrangedSubviews: [nameLabel, artistLabel])

@@ -77,12 +77,13 @@ extension AlbumTableViewController {
         let album = albums[indexPath.row]
         cell.album = album
         cell.artworkPath = album.artworkUrl100
+        cell.isAccessibilityElement = true
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let cell = tableView.cellForRow(at: indexPath) as? AlbumTableViewCell else { return }
-        
+        cell.isAccessibilityElement = true
         let album = self.albums[indexPath.row]
         let albumDetailVC = AlbumDetailViewController()
         albumDetailVC.album = album

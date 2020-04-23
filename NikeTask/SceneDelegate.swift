@@ -21,6 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let albumManager = AlbumManager()
         let albumVC = AlbumTableViewController(albumManager: albumManager)
         let mainNav = UINavigationController(rootViewController: albumVC)
+        albumVC.isAccessibilityElement = false
         mainNav.navigationBar.prefersLargeTitles = true
         mainNav.navigationBar.barTintColor = UIColor(named: "backgroundColor")
         mainNav.navigationBar.tintColor = UIColor(named: "backButton")

@@ -22,10 +22,18 @@
 		186DE84B244AB2E900D8EFAA /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DE84A244AB2E900D8EFAA /* ViewController+Extension.swift */; };
 		186DE84D244AB39900D8EFAA /* ImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DE84C244AB39900D8EFAA /* ImageView+Extension.swift */; };
 		186DE84F244AB4A600D8EFAA /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DE84E244AB4A600D8EFAA /* View+Extension.swift */; };
+		1883143224516A6500EC1373 /* NikeTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883143124516A6500EC1373 /* NikeTaskUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		186DE828244AAFAF00D8EFAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186DE809244AAFAD00D8EFAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186DE810244AAFAD00D8EFAA;
+			remoteInfo = NikeTask;
+		};
+		1883143424516A6500EC1373 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 186DE809244AAFAD00D8EFAA /* Project object */;
 			proxyType = 1;
@@ -54,6 +62,9 @@
 		186DE84A244AB2E900D8EFAA /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
 		186DE84C244AB39900D8EFAA /* ImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ImageView+Extension.swift"; path = "NikeTask/Extensions/ImageView+Extension.swift"; sourceTree = SOURCE_ROOT; };
 		186DE84E244AB4A600D8EFAA /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "View+Extension.swift"; path = "NikeTask/Extensions/View+Extension.swift"; sourceTree = SOURCE_ROOT; };
+		1883142F24516A6500EC1373 /* NikeTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1883143124516A6500EC1373 /* NikeTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeTaskUITests.swift; sourceTree = "<group>"; };
+		1883143324516A6500EC1373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +82,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1883142C24516A6500EC1373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +97,7 @@
 			children = (
 				186DE813244AAFAD00D8EFAA /* NikeTask */,
 				186DE82A244AAFAF00D8EFAA /* NikeTaskTests */,
+				1883143024516A6500EC1373 /* NikeTaskUITests */,
 				186DE812244AAFAD00D8EFAA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +107,7 @@
 			children = (
 				186DE811244AAFAD00D8EFAA /* NikeTask.app */,
 				186DE827244AAFAF00D8EFAA /* NikeTaskTests.xctest */,
+				1883142F24516A6500EC1373 /* NikeTaskUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +175,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		1883143024516A6500EC1373 /* NikeTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1883143124516A6500EC1373 /* NikeTaskUITests.swift */,
+				1883143324516A6500EC1373 /* Info.plist */,
+			);
+			path = NikeTaskUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,6 +222,24 @@
 			productReference = 186DE827244AAFAF00D8EFAA /* NikeTaskTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		1883142E24516A6500EC1373 /* NikeTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1883143624516A6500EC1373 /* Build configuration list for PBXNativeTarget "NikeTaskUITests" */;
+			buildPhases = (
+				1883142B24516A6500EC1373 /* Sources */,
+				1883142C24516A6500EC1373 /* Frameworks */,
+				1883142D24516A6500EC1373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1883143524516A6500EC1373 /* PBXTargetDependency */,
+			);
+			name = NikeTaskUITests;
+			productName = NikeTaskUITests;
+			productReference = 1883142F24516A6500EC1373 /* NikeTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +254,10 @@
 						CreatedOnToolsVersion = 11.4;
 					};
 					186DE826244AAFAF00D8EFAA = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 186DE810244AAFAD00D8EFAA;
+					};
+					1883142E24516A6500EC1373 = {
 						CreatedOnToolsVersion = 11.4;
 						TestTargetID = 186DE810244AAFAD00D8EFAA;
 					};
@@ -227,6 +278,7 @@
 			targets = (
 				186DE810244AAFAD00D8EFAA /* NikeTask */,
 				186DE826244AAFAF00D8EFAA /* NikeTaskTests */,
+				1883142E24516A6500EC1373 /* NikeTaskUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +294,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		186DE825244AAFAF00D8EFAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1883142D24516A6500EC1373 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,6 +337,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1883142B24516A6500EC1373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1883143224516A6500EC1373 /* NikeTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -285,6 +352,11 @@
 			isa = PBXTargetDependency;
 			target = 186DE810244AAFAD00D8EFAA /* NikeTask */;
 			targetProxy = 186DE828244AAFAF00D8EFAA /* PBXContainerItemProxy */;
+		};
+		1883143524516A6500EC1373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186DE810244AAFAD00D8EFAA /* NikeTask */;
+			targetProxy = 1883143424516A6500EC1373 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -494,6 +566,44 @@
 			};
 			name = Release;
 		};
+		1883143724516A6500EC1373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XP9C8HV683;
+				INFOPLIST_FILE = NikeTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = spot.NikeTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NikeTask;
+			};
+			name = Debug;
+		};
+		1883143824516A6500EC1373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XP9C8HV683;
+				INFOPLIST_FILE = NikeTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = spot.NikeTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NikeTask;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -520,6 +630,15 @@
 			buildConfigurations = (
 				186DE834244AAFAF00D8EFAA /* Debug */,
 				186DE835244AAFAF00D8EFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1883143624516A6500EC1373 /* Build configuration list for PBXNativeTarget "NikeTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1883143724516A6500EC1373 /* Debug */,
+				1883143824516A6500EC1373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
