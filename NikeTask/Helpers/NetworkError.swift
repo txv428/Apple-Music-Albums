@@ -8,6 +8,7 @@
 
 import Foundation
 
+// errors that can be happened
 enum NetworkError: Error {
     case authentication
     case badRequest

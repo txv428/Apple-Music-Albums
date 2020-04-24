@@ -35,7 +35,7 @@ class NikeTaskTests: XCTestCase {
         let val = UIViewController()
         let title = "Error title is"
         let message = "Error occured due to certain issue"
-        let errorAlert = val.ErrorMessage(titleStr: title, messageStr: message)
+        let errorAlert: () = val.ErrorMessage(titleStr: title, messageStr: message)
         XCTAssert(errorAlert == (), "Error message Alert function works fine")
     }
     
