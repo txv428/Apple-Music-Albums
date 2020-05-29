@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "186DE810244AAFAD00D8EFAA"
-               BuildableName = "NikeTask.app"
-               BlueprintName = "NikeTask"
-               ReferencedContainer = "container:NikeTask.xcodeproj">
+               BuildableName = "MusicAlbumsTask.app"
+               BlueprintName = "MusicAlbumsTask"
+               ReferencedContainer = "container:MusicAlbumsTask.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "186DE826244AAFAF00D8EFAA"
-               BuildableName = "NikeTaskTests.xctest"
-               BlueprintName = "NikeTaskTests"
-               ReferencedContainer = "container:NikeTask.xcodeproj">
+               BuildableName = "MusicAlbumsTaskTests.xctest"
+               BlueprintName = "MusicAlbumsTaskTests"
+               ReferencedContainer = "container:MusicAlbumsTask.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,7 +46,7 @@
                BlueprintIdentifier = "1883142E24516A6500EC1373"
                BuildableName = "NikeTaskUITests.xctest"
                BlueprintName = "NikeTaskUITests"
-               ReferencedContainer = "container:NikeTask.xcodeproj">
+               ReferencedContainer = "container:MusicAlbumsTask.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "186DE810244AAFAD00D8EFAA"
-            BuildableName = "NikeTask.app"
-            BlueprintName = "NikeTask"
-            ReferencedContainer = "container:NikeTask.xcodeproj">
+            BuildableName = "MusicAlbumsTask.app"
+            BlueprintName = "MusicAlbumsTask"
+            ReferencedContainer = "container:MusicAlbumsTask.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -83,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "186DE810244AAFAD00D8EFAA"
-            BuildableName = "NikeTask.app"
-            BlueprintName = "NikeTask"
-            ReferencedContainer = "container:NikeTask.xcodeproj">
+            BuildableName = "MusicAlbumsTask.app"
+            BlueprintName = "MusicAlbumsTask"
+            ReferencedContainer = "container:MusicAlbumsTask.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

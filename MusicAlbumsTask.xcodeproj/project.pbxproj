@@ -35,13 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		186DE811244AAFAD00D8EFAA /* NikeTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		186DE811244AAFAD00D8EFAA /* MusicAlbumsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAlbumsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186DE814244AAFAD00D8EFAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		186DE816244AAFAD00D8EFAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		186DE81D244AAFAF00D8EFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186DE820244AAFAF00D8EFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186DE822244AAFAF00D8EFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		186DE827244AAFAF00D8EFAA /* NikeTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		186DE827244AAFAF00D8EFAA /* MusicAlbumsTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAlbumsTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186DE82B244AAFAF00D8EFAA /* NikeTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeTaskTests.swift; sourceTree = "<group>"; };
 		186DE82D244AAFAF00D8EFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186DE836244AB07700D8EFAA /* AlbumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlbumManager.swift; path = NikeTask/AlbumManager.swift; sourceTree = SOURCE_ROOT; };
@@ -86,8 +86,8 @@
 		186DE812244AAFAD00D8EFAA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				186DE811244AAFAD00D8EFAA /* NikeTask.app */,
-				186DE827244AAFAF00D8EFAA /* NikeTaskTests.xctest */,
+				186DE811244AAFAD00D8EFAA /* MusicAlbumsTask.app */,
+				186DE827244AAFAF00D8EFAA /* MusicAlbumsTaskTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		186DE810244AAFAD00D8EFAA /* NikeTask */ = {
+		186DE810244AAFAD00D8EFAA /* MusicAlbumsTask */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 186DE830244AAFAF00D8EFAA /* Build configuration list for PBXNativeTarget "NikeTask" */;
+			buildConfigurationList = 186DE830244AAFAF00D8EFAA /* Build configuration list for PBXNativeTarget "MusicAlbumsTask" */;
 			buildPhases = (
 				186DE80D244AAFAD00D8EFAA /* Sources */,
 				186DE80E244AAFAD00D8EFAA /* Frameworks */,
@@ -170,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = NikeTask;
+			name = MusicAlbumsTask;
 			productName = NikeTask;
-			productReference = 186DE811244AAFAD00D8EFAA /* NikeTask.app */;
+			productReference = 186DE811244AAFAD00D8EFAA /* MusicAlbumsTask.app */;
 			productType = "com.apple.product-type.application";
 		};
-		186DE826244AAFAF00D8EFAA /* NikeTaskTests */ = {
+		186DE826244AAFAF00D8EFAA /* MusicAlbumsTaskTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 186DE833244AAFAF00D8EFAA /* Build configuration list for PBXNativeTarget "NikeTaskTests" */;
+			buildConfigurationList = 186DE833244AAFAF00D8EFAA /* Build configuration list for PBXNativeTarget "MusicAlbumsTaskTests" */;
 			buildPhases = (
 				186DE823244AAFAF00D8EFAA /* Sources */,
 				186DE824244AAFAF00D8EFAA /* Frameworks */,
@@ -188,9 +188,9 @@
 			dependencies = (
 				186DE829244AAFAF00D8EFAA /* PBXTargetDependency */,
 			);
-			name = NikeTaskTests;
+			name = MusicAlbumsTaskTests;
 			productName = NikeTaskTests;
-			productReference = 186DE827244AAFAF00D8EFAA /* NikeTaskTests.xctest */;
+			productReference = 186DE827244AAFAF00D8EFAA /* MusicAlbumsTaskTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 186DE80C244AAFAD00D8EFAA /* Build configuration list for PBXProject "NikeTask" */;
+			buildConfigurationList = 186DE80C244AAFAD00D8EFAA /* Build configuration list for PBXProject "MusicAlbumsTask" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				186DE810244AAFAD00D8EFAA /* NikeTask */,
-				186DE826244AAFAF00D8EFAA /* NikeTaskTests */,
+				186DE810244AAFAD00D8EFAA /* MusicAlbumsTask */,
+				186DE826244AAFAF00D8EFAA /* MusicAlbumsTaskTests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,7 +283,7 @@
 /* Begin PBXTargetDependency section */
 		186DE829244AAFAF00D8EFAA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 186DE810244AAFAD00D8EFAA /* NikeTask */;
+			target = 186DE810244AAFAD00D8EFAA /* MusicAlbumsTask */;
 			targetProxy = 186DE828244AAFAF00D8EFAA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -468,7 +468,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeTask.app/NikeTask";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicAlbumsTask.app/MusicAlbumsTask";
 			};
 			name = Debug;
 		};
@@ -490,14 +490,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeTask.app/NikeTask";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicAlbumsTask.app/MusicAlbumsTask";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		186DE80C244AAFAD00D8EFAA /* Build configuration list for PBXProject "NikeTask" */ = {
+		186DE80C244AAFAD00D8EFAA /* Build configuration list for PBXProject "MusicAlbumsTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				186DE82E244AAFAF00D8EFAA /* Debug */,
@@ -506,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		186DE830244AAFAF00D8EFAA /* Build configuration list for PBXNativeTarget "NikeTask" */ = {
+		186DE830244AAFAF00D8EFAA /* Build configuration list for PBXNativeTarget "MusicAlbumsTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				186DE831244AAFAF00D8EFAA /* Debug */,
@@ -515,7 +515,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		186DE833244AAFAF00D8EFAA /* Build configuration list for PBXNativeTarget "NikeTaskTests" */ = {
+		186DE833244AAFAF00D8EFAA /* Build configuration list for PBXNativeTarget "MusicAlbumsTaskTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				186DE834244AAFAF00D8EFAA /* Debug */,
