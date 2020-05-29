@@ -12,6 +12,10 @@ struct AlbumManager {
     
     private let url = URL(string: "https://rss.itunes.apple.com/api/v1/us/itunes-music/top-albums/all/100/explicit.json")!
     
+//    let urlNew = "http://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=\(Date().asString14DaysFromNow())"
+    
+    
+    
     typealias AlbumCompletion = ((Result<[AlbumModel], NetworkError>) -> Void)
     
     func fetchTopAlbums(completion: @escaping (AlbumCompletion)) {
